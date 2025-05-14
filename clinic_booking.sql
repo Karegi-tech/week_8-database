@@ -2,7 +2,7 @@
 -- SQL script to create all necessary tables with constraints and relationships
 
 -- Create database
-CREATE DATABASE IF NOT EXISTS clinic_booking_system;
+CREATE DATABASE clinic_booking_system;
 USE clinic_booking_system;
 
 -- Table for storing clinic information
