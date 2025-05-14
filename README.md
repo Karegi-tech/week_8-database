@@ -46,12 +46,4 @@ A complete relational database for managing clinic operations including patient 
 └── 📄 inventory_usage
 
 
-🔗 Entity Relationships
-erDiagram
-    clinics ||--o{ doctors : "1:N"
-    doctors }o--o{ specialties : "M:N"
-    doctors ||--o{ appointments : "1:N"
-    patients ||--o{ appointments : "1:N"
-    appointments ||--|{ medical_records : "1:1"
-    appointments ||--o{ bills : "1:1"
-    bills ||--o{ bill_items : "1:N"
+
